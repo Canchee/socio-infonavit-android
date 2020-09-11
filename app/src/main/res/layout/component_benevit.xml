@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="225dp"
+    android:layout_margin="10dp"
+    android:background="#FFF"
+    fresco:cardCornerRadius="20dp">
+
+    <LinearLayout
+    android:id="@+id/linearL1"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/component_benevit_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/redSocioInfonavit"/>
+        <ImageView
+            android:id="@+id/component_benevit_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vector_familia"/>
+    </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearL2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/textBenevitDescription"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Description"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/textBenevitTerritory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Territory"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/textBenevitExpTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiration Time"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

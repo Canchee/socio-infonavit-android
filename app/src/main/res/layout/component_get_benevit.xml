@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="225dp"
+    android:layout_margin="10dp"
+    android:background="#FFF"
+    fresco:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageLockedBenevit"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/vector_familia"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LO QUIERO"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

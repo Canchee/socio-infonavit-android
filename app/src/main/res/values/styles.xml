@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redSocioInfonavit</item>
+        <item name="colorPrimaryDark">@color/redSocioInfonavit</item>
+        <item name="colorAccent">@color/graySocioInfonavit</item>
+        <item name="android:navigationBarColor">@color/redSocioInfonavit</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="customItemStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
